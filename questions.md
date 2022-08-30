@@ -16,6 +16,8 @@ corresponding changes to the congestion-tax-calculator.
 Please note that this is not an attempt to cheat on the test since the timestamps are clear and obviously I spent
 more than 4 hours to have the project as it it right now.
 
+Finally note that GetTax() is still not fixed.
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
