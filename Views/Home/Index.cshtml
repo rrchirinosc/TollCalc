@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div>
+        @using (Html.BeginForm(FormMethod.Post, new { id = "getFeeForm" }))
+        {
+            <div class="form-group p-0">
+                <input type="text" class="form-control" id="vehicle" name="Vehicle" placeholder="Vehicle Type" data-val="true" data-val-required="*">
+            </div>
+
+            <button class="btn btn-primary float-right" id="get-fee">Get Fee</button>
+        }
+    </div>
+
+    <div id="result"></div>
+</div>
